@@ -39,7 +39,7 @@ class Server {
 
     middlewares() {
         this.app.use(cors({
-            origin: ['http://localhost:4000', 'https://pagina-web-delta.vercel.app/'],
+            origin: ['http://localhost:4000', 'https://pagina-web-delta.vercel.app'],
             credentials: true
           }));
         this.app.use(express.json());
